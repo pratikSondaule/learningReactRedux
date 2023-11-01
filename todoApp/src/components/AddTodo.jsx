@@ -19,7 +19,7 @@ const AddTodo = () => {
     return (
         <>
             <form onSubmit={addTodoHandler}>
-                <input type="text" value={input} onChange={handleChange} />
+                <input style={{ width: "200px", height: "28px", marginRight: "12px", background: "white", borderRadius: "8px", color: "black", fontSize: "17px" }} type="text" value={input} onChange={handleChange} />
                 <button>Add</button>
             </form>
         </>
